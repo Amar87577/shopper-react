@@ -1,0 +1,19 @@
+.shop{
+    position: relative;
+    top: 90px;
+}
+
+
+
+/* ==============BREAKPOINT============== */
+
+
+@media (max-width: 769px){
+
+    .shop{
+      overflow: hidden;
+    }
+
+
+
+}

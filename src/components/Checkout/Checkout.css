@@ -1,0 +1,342 @@
+.checkout{
+    position: relative;
+    top:90px;
+    display: flex;
+    flex-direction:row;
+    background-color: #fce3fe;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.billing-detail{
+    background-color:#fff;
+    padding: 30px;
+    padding-right:70px;
+    width:45%;
+    margin-top:100px;
+    border:1px solid #46444434; 
+}
+
+
+.checkout h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.checkout input{
+  margin-bottom:20px; 
+  padding: 20px;
+  margin-top:8px;
+  outline: none;
+  border: none;
+  background-color:#99959534;
+  color: #5c5c5c;
+  width: 100%;
+  font-size:17px;
+  border-radius:5px;
+}
+
+
+.checkout .name-div input.name{
+    margin-bottom:30px; 
+    padding: 20px;
+}
+
+.name-div{
+    display: flex;
+    gap: 30px;
+    width: 110%;
+}
+
+.checkout label{
+padding-bottom: 10px;
+}
+
+
+.additoonal-div p{
+    margin-bottom: -18px;
+}
+
+.additoonal-div textarea{
+    font-size: 18px;
+    justify-content: center;
+    padding:15px 20px;
+    outline: none;
+    border: none;
+    background-color:#99959534;
+    color: #5c5c5c;
+    font-size:17px;
+    border-radius:5px;
+    width: 100%;
+}
+
+
+.checkout-order-details-main{
+    width:35%;
+}
+
+
+.order-detail{
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 30px;
+    height:200px;
+    border:1px solid #46444434;
+}
+
+.order-detail h2{
+    font-size: 20px;
+}
+
+
+.pro-sub-head,
+.pro,
+.sub,
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.order-detail .price{
+    margin-right:40px;
+}
+
+
+
+.checkout-coupon{
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 18px 30px;
+    font-size: 16px;
+    border:1px solid #46444434;
+}
+
+.checkout-coupon span{
+    color: rgb(79, 146, 223);
+}
+
+
+.checkout-payment{
+    margin-top: 40px;
+    background-color: #fff;
+    padding:15px 30px;
+    border:1px solid #46444434;
+}
+
+.checkout-payment p{
+    margin-bottom:12px;
+}
+
+.checkout-payment .chechout-paypal-innertext{
+    width:90%;
+    padding: 12px 20px;
+    background-color:#99959534;
+    color: #5c5c5c;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+.checkout-payment .checkout-para{
+    margin-top:40px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.checkout-payment .checkout-para span{
+    color:  rgb(79, 146, 223);
+}
+
+.paypal-by{
+    margin-bottom: 20px;
+}
+
+.paypal-by .credit-pay{
+    color: rgba(23, 23, 133, 0.801);
+    font-weight:bold;
+}
+
+.paypal-by .credit-pal{
+    color:rgb(90, 221, 188);  
+    font-weight:700;
+}
+
+.paypal-by .credit{
+    font-weight:900;
+    color: rgba(23, 23, 133, 0.801);
+}
+
+.learn-more{
+    color:rgb(79, 146, 223); 
+}
+
+.credit-para{
+    font-size: 16px;
+}
+
+.checkout-paypal-btn{
+    width:100%;
+    height: 58px;
+    outline:none;
+    border: none;
+    background-color: #ff5a5a;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.checkout-paypal-btn .pay{
+    color: rgba(23, 23, 133, 0.801);
+}
+
+.checkout-paypal-btn .pal{
+    color:rgb(90, 221, 188); 
+}
+
+.checkout-pay-letter-btn{
+    width:100%;
+    height: 58px;
+    outline:none;
+    border: none;
+    background-color: #ff5a5a;
+    color:#00000096;
+    font-size: 18px;
+    font-weight:500;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.checkout-debit-credit-btn{
+    width:100%;
+    height: 58px;
+    outline:none;
+    border: none;
+    background-color:black;
+    color:#fff;
+    font-size: 16px;
+    font-weight:500;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.checkout-powered-by{
+    text-align: center;
+    margin-top:5px;
+}
+.checkout-powered-by .pay{
+    color: rgba(23, 23, 133, 0.801);
+    font-weight: 900;
+    font-size:20px;
+}
+
+
+.checkout-powered-by .pal{
+    color:rgb(90, 221, 188); 
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+/* ==============BREAKPOINT============== */
+
+
+@media (max-width:769px){
+
+
+
+    .checkout{
+        flex-direction: column;
+        padding:0px 40px;
+        overflow: hidden;
+    }
+
+    .billing-detail{
+        width:85%;
+        align-items: center;
+    }
+
+    .checkout-order-details-main{
+        width:100%;
+        align-items: center;
+    }
+
+    .checkout-powered-by{
+        margin-bottom:60px;
+    }
+
+
+}
+
+
+
+
+/* ==============BREAKPOINT============== */
+
+
+@media (max-width:475px){
+
+.checkout{
+    flex-direction: column;
+    padding:0px 30px;
+    overflow: hidden;
+    margin-bottom:100px;
+}
+
+  
+.checkout h2{
+    margin-bottom:30px;
+    font-size:18px;
+    word-spacing: 3px;
+}
+
+.checkout input{
+    padding: 16px;       
+    font-size:14px;
+    }
+      
+
+.billing-detail{
+    width:72%;
+    align-items: center;
+    margin-top:80px;
+}
+
+
+.name-div{
+    flex-direction: column;
+    gap:0px;
+    margin-bottom:-15px;
+}
+
+.checkout .name-div input.name{
+    padding: 16px;       
+    font-size:14px;
+    width: 90%;
+}
+    
+
+.additoonal-div p{
+    margin-top: -5px;
+}
+
+.additoonal-div textarea{
+    font-size:14px;
+   
+}
+
+
+.checkout-order-details-main{
+    margin-bottom:10px;
+    margin-top: -60px;
+}
+
+
+
+
+
+}

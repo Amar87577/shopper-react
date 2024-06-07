@@ -1,0 +1,335 @@
+.cartitems{
+    margin: 0px 170px;
+    position: relative;
+    top:150px;
+    margin-bottom:230px;
+}
+
+.cartitems hr{
+    height: 3px;
+    background-color: #e2e2e2;
+    border: 0;
+}
+
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitems-format{
+    font-size: 17px;
+    font-weight:500;
+}
+
+.cartitems-format p{
+    margin-left: 15px;
+}
+
+.carticon-product-icon{
+    height: 62px;
+}
+
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.cartitems-quantity{
+    width: 60px;
+    height: 50px;
+    margin-left:15px;
+    border: 2px solid #ebebeb;
+    background-color: #fff;
+}
+
+.cartitems-down-parent{
+    display: flex;
+    margin: 100px 0px;
+    justify-content: space-between;
+}
+
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.cartitems-total h1{
+    margin-bottom:30px;
+}
+
+.cartitems-total-item{
+    display: flex;
+    justify-content:space-between;
+    padding:15px 0px;
+    width: 450px;
+}
+
+.cartitems-down button{
+    width: 262px;
+    height: 58px;
+    outline:none;
+    border: none;
+    background-color: #ff5a5a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left:150px;
+}
+
+.cartitems-promocode p{
+    color: #555;
+}
+
+.cartitems-promobox{
+    width:400px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background-color: #eaeaea;
+    justify-content: space-between;
+    display: flex;
+}
+
+.cartitems-promobox input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    width:330px;
+    height: 50px;
+}
+
+.cartitems-promobox button{
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ==============BREAKPOINT============== */
+
+
+@media (max-width: 769px){
+
+
+    .cartitems{
+        overflow: hidden;
+        height: auto;
+    }
+
+
+    .cartitems-format-main{
+        display: block;
+    }
+
+    .cartitems-format{
+        margin-top: -390px;
+        margin-left:330px;
+    }
+
+    .cartitems-format-main p{
+        margin-bottom:30px;
+    }
+    
+    .cartitems .hr{
+       display: none;
+    }
+
+    .cartitems-down-parent{
+        flex-direction: column-reverse;
+        row-gap:50px;
+    }
+
+    .cartitems-promocode{
+        margin-left:-30px;
+        margin-top:30px;
+        margin-bottom: 50px;
+    }
+
+
+    .cartitems-promocode p{
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    .cartitems hr{
+        width:80%;
+    }
+
+    .cartitems-format-main p{
+        flex-direction: column;
+    }
+
+    .cartitems-quantity{
+        margin-left:-10px;
+    }
+
+    .cartitems-remove-icon{
+        margin-left: 10px;
+    }
+
+    .cartitems-promobox input{
+        font-size: 16px;
+        width:30%;
+        height: 50px;
+        margin-left: 40px;
+    }
+
+
+    .cartitems-total-item{
+        width:80%;
+    }
+
+
+}
+
+
+
+
+
+
+/* ==============BREAKPOINT============== */
+
+
+@media (max-width: 475px){
+
+
+    .cartitems{
+        margin: 0px 50px;
+        height: auto;
+        overflow: hidden;
+        margin-bottom:100px;
+    }
+
+
+    .cartitems-format{
+        margin-top: -390px;
+        margin-left:250px;
+    }
+
+    .cartitems-format-main p{
+        margin-bottom:30px;
+    }
+
+    
+.cartitems-promobox{
+    width:280px;
+    padding-left: 20px;
+    height:45px;
+}
+
+
+.cartitems-promobox input{
+    font-size: 12px;
+    width:300px;
+    height: 45px!important;
+}
+
+.cartitems-promobox button{
+    width: 110px;
+    height:45px;
+    font-size: 15px;
+}
+
+    
+    .cartitems .hr{
+       display: none;
+    }
+
+    .cartitems-down-parent{
+        flex-direction: column-reverse;
+        row-gap:50px;
+    }
+
+    .cartitems-promocode{
+        margin-left:0px;
+        margin-top:-20px;
+        margin-bottom:30px;
+    }
+
+
+    .cartitems-promocode p{
+        width: 100%;
+        margin-left:-20px;
+        padding: 20px;
+    }
+
+
+    .cartitems-promobox input{
+        font-size: 16px;
+        width:50%;
+        height: 50px;
+        margin-left: 40px;
+    }
+
+
+    .cartitems-total-item{
+        width:80%;
+    }
+
+
+ 
+}
+
+
+/* ==============BREAKPOINT============== */
+
+
+@media (max-width: 376px){
+
+    .cartitems{
+        margin: 0px 40px;
+        height: auto;
+        overflow: hidden;
+        margin-bottom:100px;
+    }
+
+
+    .cartitems-format{
+        margin-top: -370px;
+        margin-left:200px;
+        padding-left:-40px;
+    }
+
+    .cartitems p{
+        font-size: 15px;
+    }
+
+    .carticon-product-icon p{
+        font-size: 16px;
+    }
+
+    
+.cartitems-quantity{
+    width: 40px;
+    height:35px;
+    margin-top: -40px;
+    margin-left: 5px;
+}
+
+
+}

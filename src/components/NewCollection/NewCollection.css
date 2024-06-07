@@ -1,0 +1,89 @@
+.new-collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.new-collection h1{
+    color: #171717;
+    font-size:45px;
+    font-weight: 600;
+    word-spacing:5px;
+}
+
+.new-collection hr{
+    width: 150px;
+    height:6px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+.collection{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-top: 50px;
+   gap:0px;
+   row-gap: 80px;
+}
+
+
+
+
+
+
+/* ==============BREAKPOINT============== */
+
+
+@media (max-width: 769px){
+
+
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        margin-left: 45px;
+        gap: 10px;
+        row-gap: 40px;
+     }
+     
+
+}
+
+
+
+
+/* ==============BREAKPOINT============== */
+
+
+@media (max-width:475px){
+
+    .new-collection{
+        height:auto;
+        overflow: hidden;
+    }
+    
+    .new-collection h1{
+        font-size:25px;
+        word-spacing:3px;
+    }
+    
+    .new-collection hr{
+        width: 100px;
+        height:3px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap:50px;
+    }
+    
+
+
+
+
+}
